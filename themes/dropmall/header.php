@@ -9,7 +9,7 @@
   <link rel="shortcut icon" href="<?php echo get_template_directory_uri();  ?>/assets/images/common/favicon.ico" />
   <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Vollkorn:400i" rel="stylesheet" />
-  <?php wp-head(); ?>
+  <?php wp_head(); ?>
 </head>
 <body>
   <div class="container">
