@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Vollkorn:400i" rel="stylesheet" />
   <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
   <div class="container">
     <header id="header">
       <div class="header-inner">
