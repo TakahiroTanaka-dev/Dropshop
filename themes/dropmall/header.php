@@ -60,7 +60,7 @@
         </div>
       </div>
     </header>
-    <? if(is_front_page()): ?>
+    <?php if(is_front_page()): ?>
       <section class="section-contents" id="keyvisual">
         <img src="<?php echo get_template_directory_uri();  ?>/assets/images/bg-section-keyvisual.jpg" alt="MAIN IMAGE" />
         <div class="wrapper">
@@ -78,7 +78,7 @@
         <main>
           <div class="page-contents">
             <div class="page-head">
-              <img src="./assets/images/bg-page-company.jpg" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-page-company.jpg" alt="" />
               <div class="wrapper">
                 <span class="page-title-en"></span>
                 <h2 class="page-title"><?php echo get_the_title(); ?></h2>
