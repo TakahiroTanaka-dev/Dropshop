@@ -1,3 +1,10 @@
+    <?php if(! is_front_page()): ?>
+              </div> <!-- #page-container -->
+            </div><!-- #page-contents -->
+          </main>
+        </div><!-- #primary -->
+      </div><!-- .wrap -->
+    <?php endif; ?>
     <footer class="footer" id="footer">
       <div class="footerContents">
         <div class="footerContents-contact">
