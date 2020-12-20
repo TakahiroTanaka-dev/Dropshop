@@ -13,7 +13,7 @@ add_action('wp_enqueue_scripts', 'my_enqueue_scripts');
 
 register_nav_menus(
   array(
-    'place global' => 'グローバルナビ',
-    'place footer' => 'フッターナビ',
+    'place_global' => 'グローバルナビ',
+    'place_footer' => 'フッターナビ',
   )
   );
